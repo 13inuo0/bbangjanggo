@@ -80,12 +80,15 @@ const login = () => {
   @media (max-width: 650px) {
     height: auto;
   }
+  display: flex;
+flex-direction: column;
+align-items: center;
 
   .login-info-wrap {
     width: 100%;
     max-width: 1000px;
     margin: auto;
-    padding: 51px 0;
+    // padding: 51px 0;
     h2 {
       font-family: "Cafe24Surround";
       color: $point-color;

@@ -71,6 +71,9 @@
   @media (max-width: 650px) {
     height: auto;
   }
+  display: flex;
+flex-direction: column;
+align-items: center;
   background-color: $bg-color;
   // padding-bottom: 50px;
   position: relative;

@@ -65,6 +65,7 @@ onUnmounted(() => {
 @use "/src/assets/btn" as *;
 
 .flow-txt {
+width: 100%;
   .flowNotice {
     width: 100%;
     overflow: hidden;

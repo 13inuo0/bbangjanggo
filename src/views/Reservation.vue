@@ -295,10 +295,9 @@ const toggleOption = (category, value) => {
     selectedMethod.value = value;
     // 접수 방법 변경시 관련 선택 초기화
     selectedTime.value = "";
-    if (value === "기사님께 맡길게요") {
-      selectedBakeryName.value = "";
-      selectedBakeryAddress.value = "";
-    }
+
+    selectedBakeryName.value = "";
+    selectedBakeryAddress.value = "";
   } else if (category === "service") {
     selectedService.value = value;
   } else if (category === "time") {
@@ -775,7 +774,6 @@ p {
     }
   }
 }
-
 
 // 부가서비스
 .extra_service {
